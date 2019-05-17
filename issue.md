@@ -6,7 +6,7 @@ Manjaro/Archlinux 运行程序时无法运行，在终端运行 electron-ssr �
 
 ### Manjaro无法代理（其他linux可以参考）
 一、PAC模式不可用
-安装proxychains，可从软件仓库安装或[github](https://github.com/rofl0r/proxychains-ng.git)
+安装proxychains，可从软件仓库安装或github
 ``` bash
 sudo vi /etc/proxychains.conf
 ```
