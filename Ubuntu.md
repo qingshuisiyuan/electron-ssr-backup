@@ -1,4 +1,14 @@
-#### 尝试运行软件
+# Debian系列——Ubuntu18.04为例
+
+## 安装依赖
+
+`sudo apt install libcanberra-gtk-module libcanberra-gtk3-module gconf2 gconf-service libappindicator1`
+
+### 安装软件
+
+`sudo dpkg -i  *.deb`
+
+### 尝试运行软件
 
 终端输入
 
@@ -16,13 +26,46 @@
 
 > *手动退出软件重启系统（笑，Windows习惯）*
 
-#### 系统设置
+**注意：如果到这里你可以使用软件正常的代理就无需进行下一步!!!**
+
+### 系统设置
 
 完成上一步之后并不能实现代理
 在启动器中找到系统设置-网络设置-网络代理设置为如下图所示
 
-
 ![](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/img/ubuntu/2.png?raw=true)
 
+上诉设置需要与软件中的设置一样（端口）
 
-#### 开始上网
+### 开始上网
+选择节点-选择上网模式
+到这里我已经可以pac上网或全局上网
+
+![](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/img/ubuntu/3.png?raw=true)
+
+测试pac是否代理成功——百度“ip”
+
+![](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/img/ubuntu/4.png?raw=true)
+
+测试全局是否代理成功——百度“ip”
+
+![](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/img/ubuntu/5.png?raw=true)
+
+### 系统自动代理
+
+在系统设置-网络设置-代理设置改为自动一样可用
+
+（笑，系统设置那一步白设置了？）
+
+不，在某些Debian系列中，你还真得手动设置，自动无效
+
+###某些软件提示https错误
+
+如git就提示过
+
+具体原因不知道
+
+尝试使用以下方法解决：
+
+1. 更改系统代理方式为自动
+2. 使用pac
