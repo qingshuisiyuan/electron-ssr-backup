@@ -1,9 +1,11 @@
 # 写在前面
 原作者（不具名）于2019年5月15日删除了并停止开发这个伟大的项目，不管因为什么原因，我们都应该感谢原作者的付出，希望有缘再见！
 
-# 收集已知问题和解决方案[issue.md](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/issue.md)
+## Debian系列安装与配置[Ubuntu.md](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md)
 
-# ShadowsocksR跨平台客户端
+## 收集已知问题和解决方案[issue.md](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/issue.md)
+
+## ShadowsocksR跨平台客户端
 
 这是一个跨平台（支持Windows MacOS Linux系统）的`ShadowsocksR`客户端桌面应用，它功能丰富，支持windows版大部分功能，更有更多人性化功能。它是开源的，它来源于开源，回馈以开源。
 
