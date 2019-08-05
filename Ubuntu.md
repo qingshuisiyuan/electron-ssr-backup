@@ -4,6 +4,11 @@
 
 `sudo apt install libcanberra-gtk-module libcanberra-gtk3-module gconf2 gconf-service libappindicator1`
 
+可选依赖：
+- `sudo apt-get install libssl-dev`
+- `sudo apt-get install libsodium-devel`
+如果软件报错，请安装可选依赖
+
 ### 安装软件
 
 `sudo dpkg -i  *.deb`

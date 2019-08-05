@@ -1,8 +1,17 @@
 # 收集已知问题和解决方案
 
-## Archlinux or Manjaro 无法运行的问题解决
+### 如何查看软件错误信息：
+终端输入electron-ssr运行（再此之前请手动退出已经打开的ssr软件或者其他代理软件、工具，包括浏览器的代理插件等）
+注意：提交issues的时候请把报错信息中的个人信息（ip，密码等）删除。
+日志位置：
+### Archlinux or Manjaro 无法运行的问题解决
 Manjaro/Archlinux 运行程序时无法运行，在终端运行 electron-ssr 发现缺少 lib-gconf.so 这个库文件，只需要安装 gconf 即可解决
 - `sudo pacman -S gconf`
+
+###  [error] 2019-08-03 16:26:47 INFO util.py:85 loading libcrypto from libcrypto.so.1.0.0
+- `sudo apt-get install libssl-dev`
+- `sudo apt-get install libsodium-devel`
+以上两条命令是为了解决软件报错提示缺少libcrypto.so这个库，但实际能否解决并未能验证
 
 ### Manjaro无法代理（其他linux可以参考）
 一、PAC模式不可用
