@@ -6,7 +6,7 @@
 
 可选依赖：
 - `sudo apt-get install libssl-dev`
-- `sudo apt-get install libsodium-devel`
+- `sudo apt-get install libsodium-dev`
 如果软件报错，请安装可选依赖
 
 ### 安装软件
