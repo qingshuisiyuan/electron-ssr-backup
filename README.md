@@ -11,7 +11,7 @@
 
 在发issue前请先在issue中搜索是否有同类issue，如果有请跟帖。
 另外发Bug类issue请详细描述你的使用环境，包括但不限于操作系统、软件版本，操作步骤，报错日志等。
-欢迎再issue写出你们的经验，这对这个项目非常重要！包括但不限于如何解决错误，如何在不同的操作系统安装软件、依赖，设置代理，成功的使用软件。对于正确的issue，我会收集到项目代码中。
+欢迎在issue写出你们的经验，这对这个项目非常重要！包括但不限于如何解决错误，如何在不同的操作系统安装软件、依赖，设置代理，成功的使用软件的经验。对于正确的issue，我会收集到项目代码中。
 
 ## Debian系列安装与配置[Ubuntu.md](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/Ubuntu.md)
 
