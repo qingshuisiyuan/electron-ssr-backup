@@ -3,7 +3,8 @@
 ### 如何查看软件错误信息：
 终端输入electron-ssr运行（再此之前请手动退出已经打开的ssr软件或者其他代理软件、工具，包括浏览器的代理插件等）<br>
 注意：提交issues的时候请把报错信息中的个人信息（ip，密码等）删除。<br>
-日志位置：Linux：/////////////----（等我换个硬盘启动deepin看）<br>
+日志位置：Linux：/home/UserName/.config/electron-ssr/logs/shadowsocksr-client.log<br>
+其他系统：右键小飞机-帮助-查看日志<br>
 注意：提交日志的时候请把报错信息中的个人信息（ip，密码等）删除。<br>
 建议两个一起提交。<br>
 
