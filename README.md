@@ -3,9 +3,9 @@
 
 ## 2019-08-05更新
 更新内容：<br>
-1.增加原作者发布的0.2.5安装包<br>
-2.更新并收集issues并制成文档<br>
-3.说明issues作用<br>
+- 增加原作者发布的0.2.5安装包，未在release发布请访问项目文件夹[0.2.5App](https://github.com/qingshuisiyuan/electron-ssr-backup/tree/master/0.2.5App)<br>
+- 更新并收集issues并制成文档[issue.md](https://github.com/qingshuisiyuan/electron-ssr-backup/blob/master/issue.md)<br>
+- 说明issues作用<br>
 
 ## Issus
 
