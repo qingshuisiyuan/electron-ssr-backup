@@ -18,7 +18,7 @@ Manjaro/Archlinux 运行程序时无法运行，在终端运行 electron-ssr �
 以上两条命令是为了解决软件报错提示缺少libcrypto.so这个库，但实际能否解决并未能验证
 
 ### [error] 2019-06-11 22:46:25 INFO util.py:85 loading libsodium from libsodium.so.23
-- `sudo dnf install libsodium libsodium-devel`
+- `sudo apt install libsodium libsodium-dev`
 
 ### Fedora缺少库导致无法使用 chacha20* 模式
 - `sudo dnf install libsodium libsodium-devel`
