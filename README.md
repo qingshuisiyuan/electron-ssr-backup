@@ -14,7 +14,7 @@
 - 说明issues作用<br>
 
 ## 下载
-提供0.2.6版本与0.2.5版本，建议有限使用0.2.6版本
+提供0.2.6版本与0.2.5版本，建议优先使用0.2.6版本
 0.2.6下载地址见[Github release](https://github.com/qingshuisiyuan/electron-ssr-backup/releases)，对应的操作系统下载的文件为
 
 - Windows `electron-ssr-setup-x.x.x.exe`
